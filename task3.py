@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
 k = input("Введите слово: ")
 a = list(k)
 x = '';

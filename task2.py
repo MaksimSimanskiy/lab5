@@ -1,7 +1,9 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
 k = input("Введите предложение: ")
 
 z = k.find(',')
-if( z == -1):
+if( z == -1 ):
     print('Нет запятых')
     exit(1)
 f = k.find(',', z+1)
