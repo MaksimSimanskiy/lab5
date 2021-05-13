@@ -4,7 +4,7 @@ k = input("Введите слово: ")
 a = list(k)
 x = '';
 s = []
-for i in range(len(a)):
+for i in a:
     if(a[i] == 'а' and a[i].isupper() == False):a[i] = "б"
     elif (a[i] == 'б' and a[i].isupper() == False): a[i] = "а"
     if (a[i] == 'А' and a[i].isupper() == True): a[i] = "Б"
